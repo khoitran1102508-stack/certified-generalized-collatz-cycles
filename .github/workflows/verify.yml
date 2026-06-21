@@ -16,7 +16,7 @@ jobs:
         run: |
           python verifier/verify_certificate.py certificates/example_certificate_r6_A14_c31.jsonl --expect-r-max 6 --expect-A-cap 14 --expect-c-max 31
 
-  tests-fast:
+  tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,21 +27,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements-test.txt
-      - name: Run fast tests
+      - name: Run public test suite
         run: |
-          python -m pytest -q -m "not slow"
-
-  tests-slow:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-      - name: Install test dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements-test.txt
-      - name: Run slow tests
-        run: |
-          python -m pytest -q -m slow
+          python -m pytest -q

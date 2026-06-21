@@ -8,4 +8,4 @@
 - `data/reference/`: derived Wegner reference dataset and provenance notes.
 - `docs/`: mathematical reduction, sieve, certificate format, and certified theorem statement.
 - `tests/`: focused arithmetic, pruning, alignment, and adversarial validation tests.
-- `.github/workflows/verify.yml`: automated example verification and separated fast/slow test jobs.
+- `.github/workflows/verify.yml`: automated example verification and the public test suite.

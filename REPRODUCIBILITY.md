@@ -42,8 +42,7 @@ Measured runtime and memory are reported in `results/verification_metrics.json`;
 ## 5. Run tests
 
 ```bash
-python -m pytest -q -m "not slow"
-python -m pytest -q -m slow
+python -m pytest -q
 ```
 
 ## 6. Regenerate the complete certificate
