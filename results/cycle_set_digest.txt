@@ -1,0 +1,3 @@
+normalized_cycle_payload_sha256=1daa31c1107756ca895dae77d3420e2997e977fbd7a30714835d3917d5ecaa47
+raw_final_cycles_jsonl_sha256=b47638520bac584d4f29429b973b74766c2cb691ce3a02678125c627918b6f4f
+note=The normalized payload digest is the SHA-256 of the canonical JSON serialization used by the serialization scripts, not the raw byte hash of results/final_cycles.jsonl.

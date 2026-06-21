@@ -1,0 +1,21 @@
+{
+  "certificate": "certificates/final_certificate_c9997_r12_A30_v2.jsonl",
+  "certificate_sha256": "c8d89c766981211147fccf35c29dc4f30bab3977a5f3e16df9f4bbd32c3e0803",
+  "cpu_seconds": 27.310196,
+  "dp_cache_entries": 71835,
+  "dp_cache_hits": 8098155,
+  "dp_cache_misses": 71835,
+  "expected_domain_validation": "passed",
+  "isolated_parent_wall_seconds": 27.905059749995416,
+  "leaves_checked": 42525,
+  "max_reachable_residue_set_size": 3108078,
+  "peak_rss_kib": 2599936,
+  "prune_records_checked": 565936,
+  "records_processed": 608461,
+  "recursive_nodes_checked": 789774,
+  "retained_cycles_checked": 4439,
+  "rows_verified": 242,
+  "total_residues_stored": 240171709,
+  "verdict": "VALID",
+  "wall_seconds": 27.326546125004825
+}

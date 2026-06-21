@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it using the metadata below."
+title: "Certified Enumeration of Generalized Odd Collatz Cycles in a Bounded Valuation-Parameter Domain"
+authors:
+  - family-names: "Tran"
+    given-names: "Khoi Hoang"
+version: "1.0.0"
+date-released: "2026-06-21"
+license: "MIT"
+abstract: "Versioned artifact containing the certificate, separate streaming verifier, certificate-generating source code, and cycle datasets for a bounded valuation-parameter classification of generalized odd Collatz cycles."
